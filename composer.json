@@ -1,0 +1,29 @@
+{
+  "name": "maxserv/replacecontent",
+  "type": "typo3-cms-extension",
+  "description": "Search and replace strings after page generation using regular expressions",
+  "homepage": "https://github.com/MaxServ/t3ext-replacecontent",
+  "license": [
+    "GPL-2.0+"
+  ],
+  "keywords": [
+    "TYPO3 CMS",
+    "replace content"
+  ],
+  "support": {
+    "issues": "https://github.com/MaxServ/t3ext-replacecontent/issues"
+  },
+  "version": "1.0.1",
+  "require": {
+    "typo3/cms-core": ">=6.2.6,<8.0"
+  },
+  "replace": {
+    "replacecontent": "self.version",
+    "typo3-ter/replacecontent": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "MaxServ\\Replacecontent\\": "Classes"
+    }
+  }
+}
