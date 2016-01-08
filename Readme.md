@@ -34,4 +34,5 @@ config.tx_replacecontent {
     1 = $1=$2{$config.tx_replacecontent.schema}{$config.tx_replacecontent.host}/$4/
     2 = Smörgåsbord
   }
-}```
+}
+```
