@@ -1,42 +1,22 @@
 <?php
-/***************************************************************
- * Extension Manager/Repository config file for ext "replacecontent".
- *
- * Auto generated 23-10-2013 09:30
- *
- * Manual updates:
- * Only the data in the array - everything else is removed by next
- * writing. "version" and "dependencies" must not be touched!
- ***************************************************************/
-$EM_CONF['replacecontent'] = array(
+$EM_CONF['replacecontent'] = [
     'title' => 'Replace Content',
-    'description' => 'Search and replace strings after page generation using regular expressions',
+    'description' => 'Search and replace strings after page generation using regular expressions.',
     'category' => 'fe',
-    'shy' => 0,
-    'version' => '1.0.0',
-    'dependencies' => '',
-    'conflicts' => '',
-    'priority' => '',
-    'loadOrder' => '',
-    'module' => '',
-    'state' => 'beta',
-    'uploadfolder' => 0,
-    'createDirs' => '',
-    'modify_tables' => '',
-    'clearcacheonload' => 0,
-    'lockType' => '',
+    'state' => 'stable',
     'author' => 'Michiel Roos',
-    'author_email' => 'michiel@maxserv.nl',
-    'author_company' => 'MaxServ',
-    'CGLcompliance' => '',
-    'CGLcompliance_note' => '',
-    'constraints' => array(
-        'depends' => array(
-            'typo3' => '6.2.6-7.99.99'
-        ),
-        'conflicts' => array(),
-        'suggests' => array(),
-    ),
-    '_md5_values_when_last_written' => '',
-    'suggests' => array(),
-);
+    'author_email' => 'extensions@donationbasedhosting.org',
+    'version' => '1.1.0',
+    'constraints' => [
+        'depends' => [
+            'typo3' => '7.6.0-7.6.99'
+        ],
+        'conflicts' => [],
+        'suggests' => []
+    ],
+    'autoload' => [
+        'psr-4' => [
+            'MaxServ\\Replacecontent\\' => 'Classes'
+        ]
+    ]
+];
