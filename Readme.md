@@ -8,7 +8,7 @@ git clone https://github.com/MaxServ/t3ext-replacecontent.git replacecontent
 
 Or install it using composer:
 ```bash
-composer config repositories.yamlconfig vcs https://github.com/MaxServ/t3ext-replacecontent.git
+composer config repositories.replacecontent vcs https://github.com/MaxServ/t3ext-replacecontent.git
 composer require maxserv/replacecontent
 ```
 
