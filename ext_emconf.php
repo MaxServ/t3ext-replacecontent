@@ -9,7 +9,7 @@ $EM_CONF['replacecontent'] = [
     'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-7.6.99'
+            'typo3' => '6.2.6-7.99.99'
         ],
         'conflicts' => [],
         'suggests' => []

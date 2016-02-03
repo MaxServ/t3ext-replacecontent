@@ -2,11 +2,13 @@
 Search and replace strings after page generation using regular expressions
 
 Clone it
+
 ```bash
 git clone https://github.com/MaxServ/t3ext-replacecontent.git replacecontent
 ```
 
 Or install it using composer:
+
 ```bash
 composer config repositories.replacecontent vcs https://github.com/MaxServ/t3ext-replacecontent.git
 composer require maxserv/replacecontent
@@ -17,6 +19,7 @@ More information on [usage](Documentation/Introduction/Index.rst) and [administr
 ##Example
 You must set the Search and Replace patterns via TypoScript.
 TypoScript setup usage:
+
 ```bash
 config.tx_replacecontent {
   search {
