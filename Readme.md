@@ -24,7 +24,7 @@ TypoScript setup usage:
 config.tx_replacecontent {
   search {
     1 = #(src|href)=("|')(/?)(typo3temp|fileadmin|uploads)/#
-    2 = lala
+    2 = /lala/
   }
   replace {
     1 = $1=$2{$config.tx_replacecontent.schema}{$config.tx_replacecontent.host}/$4/
