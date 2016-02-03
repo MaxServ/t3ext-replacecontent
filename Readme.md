@@ -30,9 +30,6 @@ config.tx_replacecontent {
 }
 ```
 
-## Warnings
-* Make a backup of your database before importing any YAML files 
-
 ## License & Disclaimer
 Copyright 2016 Michiel Roos - MaxServ B.V.
 
