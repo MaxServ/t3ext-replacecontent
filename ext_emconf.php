@@ -1,5 +1,5 @@
 <?php
-$EM_CONF['replacecontent'] = [
+$EM_CONF[$_EXTKEY] = [
     'title' => 'Replace Content',
     'description' => 'Search and replace strings after page generation using regular expressions.',
     'category' => 'fe',
