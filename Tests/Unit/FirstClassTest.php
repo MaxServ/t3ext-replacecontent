@@ -1,9 +1,9 @@
 <?php
 namespace MaxServ\Replacecontent\Tests\Unit;
 
-use \Nimut\TestingFramework\TestCase\UnitTestCase;
+use Nimut\TestingFramework\TestCase\UnitTestCase;
 
-use \MaxServ\Replacecontent\Tests\Unit\Fixtures\LoadableClass;
+use MaxServ\Replacecontent\Tests\Unit\Fixtures\LoadableClass;
 
 /**
  * First Class Test Class
