@@ -6,10 +6,10 @@ $EM_CONF[$_EXTKEY] = [
     'state' => 'stable',
     'author' => 'Michiel Roos',
     'author_email' => 'michiel@maxserv.com',
-    'version' => '2.0.4',
+    'version' => '2.0.5',
     'constraints' => [
         'depends' => [
-            'typo3' => '6.2.6-7.99.99'
+            'typo3' => '6.2.6-8.7.99'
         ],
         'conflicts' => [],
         'suggests' => []
@@ -17,6 +17,11 @@ $EM_CONF[$_EXTKEY] = [
     'autoload' => [
         'psr-4' => [
             'MaxServ\\Replacecontent\\' => 'Classes'
+        ]
+    ],
+    'autoload-dev' => [
+        'psr-4' => [
+            'MaxServ\\Replacecontent\\Tests\\' => 'Tests'
         ]
     ]
 ];

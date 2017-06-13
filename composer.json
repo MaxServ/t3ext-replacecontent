@@ -7,11 +7,22 @@
     "content",
     "replace"
   ],
+  "homepage": "https://github.com/MaxServ/t3ext-replacecontent",
   "support": {
     "issues": "https://github.com/MaxServ/t3ext-replacecontent/issues"
   },
   "require": {
-    "typo3/cms-core": ">=6.2.6,<8.0"
+    "typo3/cms-core": "^6.2.6 || ^7.6 || ^8.7"
+  },
+  "require-dev": {
+    "mikey179/vfsStream": "~1.6.4",
+    "namelesscoder/typo3-repository-client": "~1.3.1",
+    "nimut/testing-framework": "~1.1.8",
+    "phpunit/phpunit": "^5.7"
+  },
+  "config": {
+    "bin-dir": ".Build/bin",
+    "vendor-dir": ".Build/vendor"
   },
   "replace": {
     "replacecontent": "self.version",
@@ -19,8 +30,27 @@
   },
   "autoload": {
     "psr-4": {
-      "MaxServ\\Replacecontent\\": "Classes/"
+      "MaxServ\\Replacecontent\\": "Classes"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MaxServ\\Replacecontent\\Tests\\": "Tests",
+      "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests",
+      "TYPO3\\CMS\\Fluid\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/fluid/Tests"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "mkdir -p .Build/Web/typo3conf/ext/",
+      "[ -L .Build/Web/typo3conf/ext/replacecontent ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/replacecontent"
+    ]
   },
   "license": "GPL-2.0+"
 }
