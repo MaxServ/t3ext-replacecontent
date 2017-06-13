@@ -35,6 +35,18 @@ config {
 
   prefixLocalAnchors = 1
 
+  # --- Replacecontent ---
+
+  tx_replacecontent {
+    search {
+      1 = ~Smörgåsbord~
+    }
+
+    replace {
+      1 = MaxServ Replacecontent
+    }
+  }
+
   # --- Misc ---
 
   # Deactivate Admin-Panel
