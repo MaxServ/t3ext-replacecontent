@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <pages>
+    <uid>1</uid>
+    <pid>0</pid>
+    <title>Root</title>
+    <tx_t3vpage_claim>MaxServ Replacecontent</tx_t3vpage_claim>
+    <tx_t3vpage_summary>Root</tx_t3vpage_summary>
+    <tx_t3vpage_outline>
+      <p>The root page.</p>
+    </tx_t3vpage_outline>
+    <doktype>1</doktype>
+    <deleted>0</deleted>
+    <perms_everybody>15</perms_everybody>
+  </pages>
+
+  <pages>
+    <uid>2</uid>
+    <pid>1</pid>
+    <title>First page</title>
+    <tx_t3vpage_claim>MaxServ Replacecontent</tx_t3vpage_claim>
+    <tx_t3vpage_summary>First page</tx_t3vpage_summary>
+    <tx_t3vpage_outline>
+      <p>The first page.</p>
+    </tx_t3vpage_outline>
+    <doktype>1</doktype>
+    <deleted>0</deleted>
+    <perms_everybody>15</perms_everybody>
+  </pages>
+</dataset>

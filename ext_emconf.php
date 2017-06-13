@@ -18,5 +18,10 @@ $EM_CONF[$_EXTKEY] = [
         'psr-4' => [
             'MaxServ\\Replacecontent\\' => 'Classes'
         ]
+    ],
+    'autoload-dev' => [
+        'psr-4' => [
+            'MaxServ\\Replacecontent\\Tests\\' => 'Tests'
+        ]
     ]
 ];
