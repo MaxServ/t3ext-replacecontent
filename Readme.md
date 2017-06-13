@@ -1,6 +1,10 @@
 # TYPO3 extension: replacecontent
 
-Search and replace strings after page generation using regular expressions
+[![Travis CI Status][Travis CI Status]][Travis CI]
+
+**Search and replace strings after page generation using regular expressions**
+
+## Installation
 
 Clone it
 
@@ -47,6 +51,8 @@ BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PRO
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-[usage]: Documentation/Introduction/Index.rst "Usage"
 [administration]: Documentation/Administration/Index.rst "Administration"
 [documentation folder]: Documentation/Index.rst "Documentation folder"
+[Travis CI Status]: https://img.shields.io/travis/maxserv/t3ext-replacecontent.svg?style=flat "Travis CI Status"
+[Travis CI]: https://travis-ci.org/maxserv/t3ext-replacecontent "Replacecontent at Travis CI"
+[usage]: Documentation/Introduction/Index.rst "Usage"
