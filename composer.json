@@ -7,6 +7,7 @@
     "content",
     "replace"
   ],
+  "homepage": "https://github.com/MaxServ/t3ext-replacecontent",
   "support": {
     "issues": "https://github.com/MaxServ/t3ext-replacecontent/issues"
   },
@@ -18,6 +19,10 @@
     "namelesscoder/typo3-repository-client": "~1.3.1",
     "nimut/testing-framework": "~1.1.8",
     "phpunit/phpunit": "^5.7"
+  },
+  "config": {
+    "bin-dir": ".Build/bin",
+    "vendor-dir": ".Build/vendor"
   },
   "replace": {
     "replacecontent": "self.version",
@@ -34,6 +39,18 @@
       "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests",
       "TYPO3\\CMS\\Fluid\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/fluid/Tests"
     }
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "mkdir -p .Build/Web/typo3conf/ext/",
+      "[ -L .Build/Web/typo3conf/ext/replacecontent ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/replacecontent"
+    ]
   },
   "license": "GPL-2.0+"
 }
