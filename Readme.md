@@ -55,5 +55,5 @@ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY C
 [administration]: Documentation/Administration/Index.rst "Administration"
 [documentation folder]: Documentation/Index.rst "Documentation folder"
 [Travis CI Status]: https://img.shields.io/travis/maxserv/t3ext-replacecontent.svg?style=flat "Travis CI Status"
-[Travis CI]: https://travis-ci.org/maxserv/t3ext-replacecontent "Replacecontent at Travis CI"
+[Travis CI]: https://travis-ci.org/MaxServ/t3ext-replacecontent "Replacecontent at Travis CI"
 [usage]: Documentation/Introduction/Index.rst "Usage"
