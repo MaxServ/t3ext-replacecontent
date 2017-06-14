@@ -6,17 +6,18 @@
 
 ## Installation
 
-Clone it
-
-```bash
-git clone https://github.com/MaxServ/t3ext-replacecontent.git replacecontent
-```
-
-Or install it using Composer:
+Install it using Composer:
 
 ```bash
 composer config repositories.replacecontent vcs https://github.com/MaxServ/t3ext-replacecontent.git
 composer require maxserv/replacecontent
+
+```
+
+Or clone it
+
+```bash
+git clone https://github.com/MaxServ/t3ext-replacecontent.git replacecontent
 ```
 
 More information on [usage] and [administration] can be found in the [documentation folder].
