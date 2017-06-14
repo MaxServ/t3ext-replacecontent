@@ -1,6 +1,6 @@
 # TYPO3 extension: replacecontent
 
-[![Travis CI Status][Travis CI Status]][Travis CI]
+[![Build Status](https://travis-ci.org/MaxServ/t3ext-replacecontent.svg?branch=master)](https://travis-ci.org/MaxServ/t3ext-replacecontent)
 
 **Search and replace strings after page generation using regular expressions**
 
@@ -54,6 +54,4 @@ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY C
 
 [administration]: Documentation/Administration/Index.rst "Administration"
 [documentation folder]: Documentation/Index.rst "Documentation folder"
-[Travis CI Status]: https://img.shields.io/travis/maxserv/t3ext-replacecontent.svg?style=flat "Travis CI Status"
-[Travis CI]: https://travis-ci.org/MaxServ/t3ext-replacecontent "Replacecontent at Travis CI"
 [usage]: Documentation/Introduction/Index.rst "Usage"
